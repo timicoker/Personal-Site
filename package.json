@@ -1,0 +1,70 @@
+{
+  "name": "timicoker.com",
+  "description": "My personal website.",
+  "version": "1.4.0",
+  "author": {
+    "name": "Timi Coker",
+    "email": "timicoker@gmail.com",
+    "url": "timicoker.github.io/personal-site/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "timicoker.github.io/personal-site/"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext js,jsx,ts,tsx --max-warnings=0"
+  },
+  "dependencies": {
+    "@fec/remark-a11y-emoji": "^3.1.0",
+    "@material-ui/core": "^4.11.4",
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^10.2.2",
+    "canvas-confetti": "^1.4.0",
+    "gray-matter": "^4.0.3",
+    "next": "10.2.2",
+    "next-mdx-remote": "^3.0.2",
+    "next-seo": "^4.24.0",
+    "react": "^17.0.2",
+    "react-awesome-slider": "^4.1.0",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-countup": "^4.3.3",
+    "react-dom": "^17.0.2",
+    "react-headroom": "^3.1.1",
+    "react-icons": "^4.2.0",
+    "react-intersection-observer": "^8.32.0",
+    "remark-mark-plus": "^1.0.21",
+    "remark-slug": "^6.0.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.1",
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "@types/react-headroom": "^2.2.1",
+    "@types/styled-components": "^5.1.9",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.26.0",
+    "eslint-config-alloy": "^4.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "next-compose-plugins": "^2.2.1",
+    "typescript": "4.2.4"
+  },
+  "keywords": [
+    "timi",
+    "portfolio",
+    "personal site",
+    "resume",
+    "next.js",
+    "react.js",
+    "blog",
+    "design",
+    "web",
+    "web-development"
+  ]
+}
