@@ -1,7 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
 
-import { realisticConfetti } from "scripts";
 
 const Wrapper = styled.li`
   display: inline-block;
@@ -42,18 +41,9 @@ interface TechnologyProps {
 export const Technology: React.FC<TechnologyProps> = ({ src }) => {
   const [highlighted, setHighlighted] = React.useState(false);
 
-  const toggle = async () => {
-    await setHighlighted(!highlighted);
-
-    if (
-      document?.getElementById("technologies-catalog")?.getElementsByClassName("gray")?.length === 0
-    ) {
-      realisticConfetti();
-    }
-  };
 
   return (
-    <Wrapper onClick={toggle} className={`technologie ${highlighted ? "highlighted" : "gray"}`}>
+    <Wrapper className={`technologie ${highlighted ? "highlighted" : "gray"}`}>
       <img
         src={`images/technologies/${src}.svg`}
         draggable="false"
